@@ -2,3 +2,35 @@ body{
     margin: 0;
     padding: 0;
 }
+.title{
+  color: green;  
+  text-align: center;
+  font-size: 40px;
+}
+.parent{
+    display: flex;
+    padding: 20px;
+    width: 80%;
+   margin: 0 auto; 
+}
+.details-btn{
+  padding: 10px 30px;
+  background-image: linear-gradient(50deg, green, red, green);
+  border-radius: 10px;
+  border: none;
+  color: rgb(107, 219, 28);
+ 
+}
+.details-btn:hover{
+  background-image: linear-gradient(60deg, red, green, red);
+  color: rgb(255, 242, 0);
+  cursor: pointer;
+}
+.left-side h3{
+  color: green;
+}
+.second-section{
+  color: green;
+  text-align: center;
+  margin: 50px;
+}
