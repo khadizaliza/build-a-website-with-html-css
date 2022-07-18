@@ -37,13 +37,18 @@ body{
 }
 .card{
   width: 250px;
-  border: 1px solid gray;
+  border: 1px solid green;
   box-shadow: 4px 4px 12px gray;
   border-radius: 5px;
 }
-.div-img{
+.div-img img{
   width: 100%;
+  height: 200px;
 }
+/* .div-img img{
+  height: 245px;
+  width: 245px;
+} */
 .description{
   display: flex;
   justify-content: space-around;
